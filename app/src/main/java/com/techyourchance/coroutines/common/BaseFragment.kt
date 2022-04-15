@@ -16,6 +16,8 @@ abstract class BaseFragment : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         screensNavigator = compositionRoot.screensNavigator
+
+
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
